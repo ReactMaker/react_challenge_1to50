@@ -1,6 +1,12 @@
-# Simple React Start Kit 2017
+# react_challenge_1to50
 
-這個環境包可以讓你快速體驗 ReactJS 開發環境的便利，我們並沒有在裏面放入太多套件(例如 redux, karma)，希望可以讓你用最簡單的環境開始學習 React
+React JS 製作1 to 50遊戲，產生隨機位置的1~50數字後
+
+按照順序從1點到50，點錯會重頭開始喔。
+
+![Imgur](https://i.imgur.com/jdMHS9t.gif)
+
+## [DEMO](http://reactmaker.github.io/react_challenge_1to50)
 
 ## 特色
 
