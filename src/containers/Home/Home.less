@@ -22,10 +22,48 @@
    }
  }
 
- .content {
+ .contentContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .zone {
+      position: relative;
+      width: 500px;
+      height: 500px;
+
+      .board {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .btn {
+          height: 20%;
+          flex: 1 0 19%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 1px;
+          cursor: pointer;
+        }
+        .layer1 {
+          background: #333;
+          color: #fff;
+        }
+        .layer2 {
+          background: #3c579e;
+          color: #fff;
+        }
+        .empty {
+          background: transparent;
+        }
+      }
+    }
  }
 }
 
